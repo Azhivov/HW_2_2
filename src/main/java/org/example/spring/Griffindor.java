@@ -39,6 +39,5 @@ public class Griffindor extends Hogwards {
         this.hobility = hobility;
         this.bravery = bravery;
 
-
     }
 }
