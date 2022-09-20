@@ -12,11 +12,11 @@ public abstract class Hogwards {
         int powerOne = this.magic + this.teleport;
         int powerTwo = studentSecond.magic + studentSecond.teleport;
         if (powerOne > powerTwo) {
-            System.out.println(this.fullName + "Сильнее чем " + studentSecond.fullName);
+            System.out.println(this.fullName + " Сильнее чем " + studentSecond.fullName);
         } else if (powerOne < powerTwo) {
-            System.out.println(studentSecond.fullName + "Сильнее чем " + this.fullName);
+            System.out.println(studentSecond.fullName + " Сильнее чем " + this.fullName);
         } else {
-            System.out.println(this.fullName + "Сильнее чем " + studentSecond.fullName);
+            System.out.println(this.fullName + " Сильнее чем " + studentSecond.fullName);
         }
     }
 

@@ -13,11 +13,11 @@ public class Kogtewran extends Hogwards {
         int powerOne = this.mind + this.wisdom + this.wit + this.creation;
         int powerTwo = studentSecond.mind + studentSecond.wisdom + studentSecond.wit + studentSecond.creation;
         if (powerOne > powerTwo) {
-            System.out.println(this.fullName + "Сильнее чем " + studentSecond.fullName);
+            System.out.println(this.fullName + " Сильнее чем " + studentSecond.fullName);
         } else if (powerOne < powerTwo) {
-            System.out.println(studentSecond.fullName + "Сильнее чем " + this.fullName);
+            System.out.println(studentSecond.fullName + " Сильнее чем " + this.fullName);
         } else {
-            System.out.println(this.fullName + "Сильнее чем " + studentSecond.fullName);
+            System.out.println(this.fullName + " Сильнее чем " + studentSecond.fullName);
         }
     }
 

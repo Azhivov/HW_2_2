@@ -22,5 +22,7 @@ public class Main {
         System.out.println();
       zahariyaSmith.compareStudents(sedrikDiggory);
       zahariyaSmith.compareStudents(harryPotter);
+        System.out.println();
+
     }
 }

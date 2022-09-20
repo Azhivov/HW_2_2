@@ -12,11 +12,11 @@ public class Griffindor extends Hogwards {
         int powerOne = this.honor + this.hobility + this.bravery;
         int powerTwo = studentSecond.honor + studentSecond.hobility + studentSecond.bravery;
         if (powerOne > powerTwo) {
-            System.out.println(this.fullName + "Сильнее чем " + studentSecond.fullName);
+            System.out.println(this.fullName + " Сильнее чем " + studentSecond.fullName);
         } else if (powerOne < powerTwo) {
-            System.out.println(studentSecond.fullName + "Сильнее чем " + this.fullName);
+            System.out.println(studentSecond.fullName + " Сильнее чем " + this.fullName);
         } else {
-            System.out.println(this.fullName + "Сильнее чем " + studentSecond.fullName);
+            System.out.println(this.fullName + " Сильнее чем " + studentSecond.fullName);
         }
     }
 
@@ -38,6 +38,5 @@ public class Griffindor extends Hogwards {
         this.honor = honor;
         this.hobility = hobility;
         this.bravery = bravery;
-
     }
 }

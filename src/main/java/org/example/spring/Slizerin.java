@@ -39,11 +39,11 @@ public class Slizerin extends Hogwards {
         int powerOne = this.cunning + this.determination + this.ambitiont + this.resoursefulness + this.lustForPower;
         int powerTwo = studentSecond.cunning + studentSecond.determination + studentSecond.ambitiont + studentSecond.resoursefulness + studentSecond.lustForPower;
         if (powerOne > powerTwo) {
-            System.out.println(this.fullName + "Сильнее чем " + studentSecond.fullName);
+            System.out.println(this.fullName + " Сильнее чем " + studentSecond.fullName);
         } else if (powerOne < powerTwo) {
-            System.out.println(studentSecond.fullName + "Сильнее чем " + this.fullName);
+            System.out.println(studentSecond.fullName + " Сильнее чем " + this.fullName);
         } else {
-            System.out.println(this.fullName + "Сильнее чем " + studentSecond.fullName);
+            System.out.println(this.fullName + " Сильнее чем " + studentSecond.fullName);
         }
     }
 }
